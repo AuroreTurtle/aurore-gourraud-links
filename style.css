@@ -1,17 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-	--button-hover: hsl(108, 73%, 64%);
-	--white: hsl(0, 0%, 100%);
-	--button: #3e7531;
-	--bg-profil: #1b3115;
-	--bg-main: hsl(97, 100%, 93%);
+	--button-hover: hsl(96, 95%, 86%);
+	--button: #9aff81;
+	--bg-profil: #68db4b;
+	--bg-main: hsl(114, 75%, 92%);
 }
 
 * {
 	margin: 0;
 	font-family: "Inter", sans-serif;
-	color: var(--white);
 }
 
 body {
@@ -43,7 +41,6 @@ p {
 }
 
 .locationProfile {
-	color: var(--button-hover);
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
@@ -65,13 +62,14 @@ p {
 	text-align: center;
 	font-weight: bold;
 	background-color: var(--button);
+	color: black;
 	border-radius: 10px;
 	padding: 15px 0;
 }
 
 .links a:hover,
 .links a:focus {
-	color: var(--bg-profil);
+	color: #42912e;
 	background-color: var(--button-hover);
 }
 
@@ -82,7 +80,6 @@ footer {
 footer p {
 	font-size: 12px;
 	text-align: center;
-	color: black;
 }
 
 @media (min-width: 768px) {
