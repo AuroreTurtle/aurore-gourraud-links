@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-	--button-hover: hsl(96, 95%, 86%);
+	--button-hover: hsl(95, 91%, 87%);
 	--button: #9aff81;
-	--bg-profil: #68db4b;
+	--bg-profil: #55b33d;
 	--bg-main: hsl(114, 75%, 92%);
 }
 
